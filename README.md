@@ -5,9 +5,16 @@ Uses Spotify's RESTful API to create a playlist of you 50 most recently played s
 
 In the secrets.py file the user needs to add some data.
 
-Spotify_token 
+
 
 spotify_user_id = Your user ID
-discover_weekly_id = "37i9dQZEVXcIXcP1sn0xUZ"
-refresh_token = "AQB_j9OHDSciNvloYhk9NFIAYKpm54DrfVhYSavODJE2cyZvHQguEWC_Q49DVddQjroIgVR4XrIvHqblTu5AK1sM0VnGbO8z-gaoIR1tSNbRU0DfYg2_oxqwPNibuU6ash8"
-base_64 = "NTQ0NzhlYjZlMDQzNGMwYmFhZTQ0Y2ZkNTIzODIzNjk6ZDAwMjZkNDcxMmE0NGNlZjhhODc0MzQ4MWI0ZWU4Njg"
+
+base_64 = The base 64 encryption of you Client ID and Client secret in the format -> Client ID:Client Secret
+
+Watch the following YouTuve video for an explanation of how to get your refresh token, sptify_token and your base_64.
+
+youtube.com/watch?v=-FsFT6OwE1A&list=PLrp-hldHDJiQLs993k8VPYrDNDDpumDR6&index=4
+
+Note:
+
+When inputing the scopre of your code, you will need to add the scope "user-read-recently-played".
