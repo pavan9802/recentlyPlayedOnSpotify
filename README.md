@@ -17,4 +17,4 @@ youtube.com/watch?v=-FsFT6OwE1A&list=PLrp-hldHDJiQLs993k8VPYrDNDDpumDR6&index=4
 
 Note:
 
-When inputing the scopre of your code, you will need to add the scope "user-read-recently-played".
+When inputing the scope of your code, you will need to add the scope "user-read-recently-played".
